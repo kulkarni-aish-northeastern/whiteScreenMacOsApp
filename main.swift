@@ -9,7 +9,7 @@ class CustomContentView: NSView {
     }
 
     override func updateLayer() {
-        // Add a border inside the view
+        // Border inside the view
         self.layer?.borderColor = (isHovered ? NSColor.red : NSColor.black).cgColor
         self.layer?.borderWidth = 2.0
         self.layer?.cornerRadius = 8.0
@@ -53,7 +53,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         let contentView = CustomContentView(frame: frame)
 
-        // Add tracking area for hover effect
+        // Tracking area for hover effect
         let trackingArea = NSTrackingArea(rect: contentView.bounds, options: [.activeAlways, .mouseEnteredAndExited], owner: contentView, userInfo: nil)
         contentView.addTrackingArea(trackingArea)
 
