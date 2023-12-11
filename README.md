@@ -37,4 +37,6 @@ This macOS Swift app opens a customizable white window that can be resized and m
 
     Using the command line: You can also build the app from the command line using Swift Compiler:
     swiftc -o WhiteScreenMacOsApp main.swift
+   
     ./WhiteScreenMacOsApp
+   
