@@ -5,6 +5,7 @@ This macOS Swift app opens a customizable white window that can be resized and m
 - Customizable blank window
 - Resizable with Hover effect
 - Always stays on top of other apps and browsers
+- Minimize option for easy access
 
 ## Installation
 
